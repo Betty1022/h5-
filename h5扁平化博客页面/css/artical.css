@@ -1,0 +1,447 @@
+h1,h2,ul{
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center center;
+    overflow: hidden;
+}
+header{
+    background: rgba(0,0,0,0.3);
+}
+nav {
+    /*background:#444;*/
+    background: transparent;
+    height:50px;
+}
+#banner{
+    /*background:#777;*/
+    background: transparent;
+    height:300px;
+    color:#fff;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float:right;
+}
+nav ul li,nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-right:20px;
+}
+nav ul li a{
+    line-height:inherit;
+    text-decoration: none;
+    display:inline-block;
+    height:inherit;
+    color:#fff;
+}
+nav .logo{
+    float:left;
+    padding-left: 10px;
+}
+nav .logo a{
+    text-decoration: none;
+}
+#banner .inner{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top:160px;
+}
+#banner .inner a{
+    text-decoration: none;
+    color:#fff;
+    font-size:18px;
+    letter-spacing: 2px;
+}
+#banner .more{
+    width:100px;
+    height:100px;
+    position:absolute;
+    margin-top: 225px;
+
+    left:50%;
+    margin-left:-50px;
+    /*border:1px solid #ccc;*/
+}
+
+button{
+    border:none;
+    background:#333;
+    color:#eee;
+    padding:10px;
+}
+#banner button{
+    margin-top:10px;
+    padding:14px 40px;
+    background:red;
+}
+/*
+#banner .inner .more{
+    margin-top: 230px;
+}*/
+.sub-heading{
+    line-height:30px;
+    margin: 30px;
+}
+.logo{
+    font-size: 20px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.logo a{
+    color:#fff;
+}
+.active{
+    /*border-bottom:4px solid #fff;*/
+    font-size:20px;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+h1{
+    padding:12px;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
+}
+h2{
+    font-size:30px;
+}
+h3{
+    font-size: 24px;
+}
+p{
+    font-size:18px;
+    letter-spacing: 1px;
+}
+.hr{
+    height:2px;
+    width:100%;
+    margin:20px auto;
+}
+.clearfix:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.sub-heading{
+    font-size:18px;
+    margin:30px 0;
+    line-height: 30px;
+}
+.green-section{
+    background: #089DB0;
+    color:#fff;
+    text-align: center;
+    padding:100px 0;
+}
+.green-section .hr{
+    background: #078494;
+    width:60%;
+}
+/*
+.green-section .icon-group .icon{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    background: #0D6F7C;
+    transform:rotate(45deg);
+    margin:20px;
+    text-align: center;
+}*/
+.green-section .icons .icon{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    background: #0D6F7C;
+    transform:rotate(45deg);
+    margin:20px;
+    text-align: center;
+}
+ul{
+    margin:0 0 2em 0;
+}
+ul.icons{
+    list-style: none;
+}
+ul.icons.major li{
+    padding-right:3.5em;
+
+}
+ul.icons li{
+    display:inline-block;
+    padding:0 1em 0 0;
+    position:relative;
+}
+ul.icons li:nth-child(3){
+    padding:0;
+}
+*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.icon.major:before{
+    transform: rotate(315deg);
+    display:inline-block;
+    font-size:1.25em;
+    margin:0 0 3px 0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-21px;
+    margin-top:-20px;
+
+
+}
+.icon:before{
+    font-smoothing: antialiased;
+    font-family:FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: none !important;
+
+}
+.icon-group{
+    margin-top:40px;
+}
+.wrapper{
+    max-width:1080px;
+    margin:0 auto;
+}
+.gray-section{
+    background: #252f34;
+    color:#fff;
+}
+.gray-section .img-section{
+    width:45%;
+}
+.img-section img{
+    width:100%;
+}
+.gray-section .text-section{
+    width:55%;
+
+}
+.article-preview{
+    /*初始化字号，因为字号会影响行高*/
+    font-size:0;
+}
+
+/*改变奇数的背景色*/
+.article-preview:nth-child(odd){
+    background: rgba(255,255,255,0.05);
+}
+.article-preview > div{
+    float:left;
+}
+/*子元素浮动会导致塌陷，父元素的高度变为0*/
+/*所以要清除父级元素的浮动*/
+/*
+.article-preview:after{
+    content:'';
+    display: block;
+    clear:both;
+}*/
+.text-section{
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+.text-section h2{
+    margin-bottom:20px;
+
+}
+.text-section .sub-heading{
+    font-size: 22px;
+    margin-top:0;
+}
+.text-section p{
+    font-size:18px;
+    letter-spacing: 1px;
+}
+/*text-section的所有的直系的子元素的
+最大宽度不能超过90%*/
+.text-section > *{
+    max-width: 90%;
+}
+
+.purple-section{
+    background: #3f3965;
+    color:#fff;
+    padding:80px;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .heading-wrapper .hr{
+    background: #373259;
+    width:60%;
+}
+
+.card-group li{
+    float:left;
+    width:50%;
+    min-height:300px;
+    padding:50px 70px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+
+}
+.card-group li p{
+    font-size:20px;
+    letter-spacing: 1px;
+}
+.card-group li:before{
+    display: block;
+    position:absolute;
+    left:1.25em;
+    top:3.15em;
+    font-size:1.5em;
+}
+/*子元素浮动会导致塌陷，父元素的高度变为0*/
+/*所以要清除父级元素的浮动*/
+/*
+.card-group:after{
+    content:'';
+    display: block;
+    clear:both;
+}*/
+.card-group li:first-child{
+    background-color: rgba(0,0,0,0.04);
+}
+.card-group li:nth-child(2){
+    background-color: rgba(0,0,0,0.08);
+}
+.card-group li:nth-child(3){
+    background-color: rgba(0,0,0,0.12);
+}
+.card-group li:nth-child(4){
+    background-color: rgba(0,0,0,0.16);
+}
+.card-group li:nth-child(5){
+    background-color: rgba(0,0,0,0.20);
+}
+.card-group li:last-child{
+    background-color: rgba(0,0,0,0.24);
+}
+.pic-section{
+    height:350px;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+}
+.pic-section .inner{
+    min-height:150px;
+    padding:100px 0;
+
+}
+.pic-section .inner_left{
+    float:left;
+    width:60%;
+}
+.pic-section .active_btn{
+    float:left;
+}
+.pic-section .active_btn button{
+    text-decoration: none;
+    width:250px;
+    height:43px;
+    border:2px solid #fff;
+    background: rgba(0,0,0,0);
+    font-weight:700;
+    letter-spacing: 2px;
+}
+.pic-section .active_btn button.btn1{
+    background:red;
+    margin-bottom:30px;
+    border:2px solid red;
+}
+footer{
+    background: #333;
+    color:#fff;
+    min-height:200px;
+    text-align: center;
+}
+ul.share-group{
+    display:block;
+    width:1080px;
+    margin:0 auto;
+    padding:50px 50px 40px 50px;
+}
+.share-group li{
+    display:inline-block;
+    padding:10px;
+    font-size:1.5em;
+}
+.share-group li a{
+    opacity:0.6;
+}
+.share-group li a:hover{
+    opacity:1;
+}
+.copyright{
+    padding-bottom:20px;
+}
+.mask{
+    display: none;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-color: rgba(0,0,0,0.3);
+}
+#sidebar{
+
+    width:300px;
+    background-color: #333;
+    position:fixed;
+    top:0;
+    right:-300px;
+    bottom:0;
+    padding:20px 0;
+    transition:right 0.5s;
+}
+#sidebar ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#sidebar ul a{
+    display:inline-block;
+    width:100%;
+    text-decoration: none;
+    padding:15px 20px;
+    font-size: 18px;
+    color:#fff;
+    letter-spacing: 2px;
+
+}
+
+#sidebar ul a:hover{
+    background: #666;
+    width:100%;
+}
+.back-to-top{
+
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    border:1px solid #888;
+}
